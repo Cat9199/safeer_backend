@@ -1,0 +1,1424 @@
+[2024-04-13 06:08:40] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-13 06:08:40] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-13 12:17:12] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-13 12:17:12] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-14 04:45:49] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-14 04:45:49] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-14 06:04:00] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-14 06:04:00] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-14 06:22:46] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-14 06:22:46] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-14 12:12:41] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-14 12:12:41] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-14 15:40:55] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-14 15:40:55] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-14 22:32:00] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-14 22:32:00] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-14 23:42:19] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-14 23:42:19] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-15 05:59:43] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-15 05:59:43] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-15 06:00:20] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-15 06:00:20] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-15 08:35:06] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-15 08:35:06] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-25 05:36:03] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-25 05:36:03] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-25 11:46:09] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-25 11:46:09] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-26 05:32:02] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-26 05:32:02] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-26 09:06:24] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-26 09:06:24] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-26 09:06:25] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-26 09:06:25] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-26 11:33:10] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-26 11:33:10] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-26 11:41:42] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-26 11:41:42] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-26 20:10:24] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-26 20:10:24] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-26 23:22:28] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-26 23:22:28] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-27 01:51:48] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-27 01:51:48] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-27 04:33:04] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-27 04:33:04] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-27 04:35:36] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-27 04:35:36] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-27 05:29:44] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-27 05:29:44] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-27 07:20:54] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-27 07:20:54] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-27 11:40:29] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-27 11:40:29] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-28 05:29:01] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-04-28 05:29:01] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-06-08 10:12:33] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-06-08 10:12:33] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-06-09 03:50:59] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect()
+#1 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver()
+#2 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error()
+#6 /home/mohamed/bme-eg.com/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException()
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-06-09 03:50:59] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(444): include('/home/mohamed/b...')
+#2 /home/mohamed/bme-eg.com/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile()
+#3 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config()
+#6 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#8 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(152): Illuminate\\Foundation\\Application->bootstrapWith()
+#9 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(136): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#10 /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(110): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#11 /home/mohamed/bme-eg.com/index.php(71): Illuminate\\Foundation\\Http\\Kernel->handle()
+#12 {main} at /home/mohamed/bme-eg.com/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
+[2024-06-20 18:40:45] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (Error(code: 0): Class \"Illuminate\\Support\\Collection\" not found at /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php:15)
+[stacktrace]
+#0 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(244): collect(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(202): Illuminate\\Log\\LogManager->createStackDriver(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(118): Illuminate\\Log\\LogManager->resolve('stack')
+#3 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(98): Illuminate\\Log\\LogManager->get('stack')
+#4 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(555): Illuminate\\Log\\LogManager->driver()
+#5 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(245): Illuminate\\Log\\LogManager->error('During inherita...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/app/Exceptions/Handler.php(39): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#7 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(88): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#8 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(130): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#9 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#10 {main}
+"} 
+[2024-06-20 18:40:45] laravel.ERROR: During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8192, 'Return type of ...', '/Applications/X...', 1443)
+#1 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/composer/ClassLoader.php(444): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\Autoload\ClassLoader->loadClass('Illuminate\\Supp...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config('aliases')
+#6 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\\Support\\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:1443
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(13): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Return type of ...', '/Applications/X...', 1443)
+#1 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/composer/ClassLoader.php(444): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Supp...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\\Foundation\\PackageManifest->config('aliases')
+#6 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#7 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 {main} at /Applications/XAMPP/xamppfiles/htdocs/torisem/@core/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:13)
+[stacktrace]
+#0 {main}
+"} 
